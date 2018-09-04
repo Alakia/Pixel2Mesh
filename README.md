@@ -42,11 +42,12 @@ cd pixel2mesh/utils
 wget http://bigvid.fudan.edu.cn/pixel2mesh/eccv2018/checkpoint.zip
 unzip checkpoint.zip
 ```
-If you have any problem when importing `cd_dist.so`, you could try to compile it yourself, please refer to [Fan et. al.](https://github.com/fanhqme/PointSetGeneration)
 
 #### Reconstructing shapes
     python demo.py --image utils/examples/plane.png
 Run the demo code and the output mesh file is saved in utils/examples/plane.obj 
+
+If you have any problem when importing `cd_dist.so`, you could try to compile it yourself, please refer to [Fan et. al.](https://github.com/fanhqme/PointSetGeneration)
 
 #### Input image, output mesh
 <img src="./pictures/plane.png" width = "330px" /><img src="./pictures/plane.gif" />
